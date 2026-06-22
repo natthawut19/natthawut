@@ -1,0 +1,89 @@
+/* การตั้งค่าพื้นฐานของหน้าเว็บ */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ส่วนหัวของเว็บ (Header) */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.1em;
+}
+
+/* ส่วนเนื้อหาหลัก (Section) */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้กล่องดูมีมิติ */
+}
+
+/* หัวข้อรองในแต่ละ Section */
+section h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* ส่วนแสดงผลงาน (Projects) */
+.project {
+    background: #fafafa;
+    border-left: 4px solid #4CAF50;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* ส่วนแสดงทักษะ (Skills) */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ส่วนท้ายของเว็บ (Footer) */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
